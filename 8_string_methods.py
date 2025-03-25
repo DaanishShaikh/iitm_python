@@ -30,3 +30,12 @@ a='----Python----'
 print(a.strip('-'))
 print(a.lstrip('-'))
 print(a.rstrip('-'))
+a='python'
+print(a.startswith('p'))
+print(a.startswith('P'))
+print(a.endswith('n'))
+print(a.endswith('N'))
+x='Python String Methods'
+print(x.count('t'))
+print(x.index('t'))
+print(x.replace('P','D'))
